@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.Header{
+    height: 100vh;
+    width: 100%;
+    background:url(images.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+
+
+}
+nav{
+    display: flex;
+    padding: 20px,100px;
+    color: #000;
+
+}  
+nav img{
+    width: 150px;
+
+}
+.topnav{
+    background-color: none;
+    overflow: hidden;
+    
+}
+.topnav a{
+    float: right;
+    color: f2f2f2;
+    text-align: center;
+    padding: 40px 44px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+.main-text{
+    margin: 15% auto;
+    text-align: center;
+
+}
+.main-text h1{
+    font-size: 50;
+}
+.main-text.button{
+    text-decoration: none;
+    display: block;
+    width: 140px; 
+    height: 35px; 
+    margin: 25px auto;
+    color:#fff ;
+    line-height: 35px;
+    border: 1px solid red;
+}
+.topnav a active{
+    text-align: right;
+    display: inline-block;
+    margin: 0 20px;
+}
+
